@@ -28,7 +28,6 @@ The prompt-baseline helper additionally accepts a flat root `token.yaml`
 ## Directory map
 
 ```
-code_arrOct/
 ├── 00_prompts_and_protocol/   Shared engine, investor prompts and P01 prompt sources
 ├── 01_preliminary/            Preliminary / controllability experiments (P01, gamma sweep)
 ├── 02_scaling_efficiency/     Scaling-efficiency and date-sensitivity experiments
@@ -105,7 +104,7 @@ Each is a reported-metrics CSV; see the folder README.
 
 ```bash
 # 1) generate the synthetic (fake) news + market data
-python code_arrOct/00_prompts_and_protocol/fake_data/make_fake_data.py
+python 00_prompts_and_protocol/fake_data/make_fake_data.py
 
 # 2) provide fake credentials (or export the env vars)
 export OPENAI_API_KEY=sk-placeholder-anonymized
@@ -113,7 +112,7 @@ export OPENAI_BASE_URL=https://api.example-llm.invalid/v1
 export OPENAI_MODEL=qwen3-8b
 
 # 3) smoke-test the self-contained pieces
-python code_arrOct/01_preliminary/gamma_sweep_robustness/plot_three_panel_boxplot.py
+python 01_preliminary/gamma_sweep_robustness/plot_three_panel_boxplot.py
 ```
 
 Scripts that need a completed run directory (the fidelity and ablation analyzers,
