@@ -1,0 +1,7 @@
+setting,N,window,metric,standard_SUM,no_news_technical_only,units,source,notes
+No-news ablation,500,reported main run,EW_RMSE,33.71,132.90,index_points,reported_values,paired values explicitly shown as 33.71 -> 132.90
+No-news ablation,500,reported main run,EW_MAPE,2.75,,percent,reported_values,paragraph-level metric; treatment assignment not stated separately
+No-news ablation,500,reported main run,DirAcc,78.95,,percent,reported_values,paragraph-level metric; treatment assignment not stated separately
+No-news ablation,500,reported main run,simulated_EW_return,12.02,,percent,reported_values,paragraph-level metric; treatment assignment not stated separately
+No-news ablation,500,reported main run,real_EW_return,18.53,,percent,reported_values,market reference
+No-news ablation,500,reported main run,final_Gini,0.3112,0.3114,index,reported_values,paired values explicitly shown as 0.3112 -> 0.3114

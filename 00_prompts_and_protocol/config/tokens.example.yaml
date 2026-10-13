@@ -1,0 +1,25 @@
+# Anonymized example configuration for the LLM router and market-data loader.
+#
+# Copy this file to `data_config/tokens.yaml` inside the run tree (or export the
+# environment variables below). Every value is a placeholder; replace the
+# base_url / api_key with your own OpenAI-compatible endpoint before running.
+#
+# Environment variables take precedence over this file:
+#   OPENAI_API_KEY, OPENAI_BASE_URL, OPENAI_MODEL, OPENAI_CONFIG_SECTION
+#
+# Routing examples:
+#   * sum_investor_prompts/llm_router.py  -> `openai` section
+#   * p01_prompt/run.py                   -> `openai` section
+#   * engine/market_data_loader.py        -> `market_data` section
+
+openai:
+  api_key: "sk-placeholder-anonymized"
+  base_url: "https://api.example-llm.invalid/v1"
+  model: "qwen3-8b"
+  temperature: 0.6
+  top_p: 0.95
+  top_k: 20
+
+market_data:
+  # Placeholder credential for the (fake) market-data endpoint.
+  token: "placeholder-anonymized"

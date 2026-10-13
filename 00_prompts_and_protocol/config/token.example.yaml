@@ -1,0 +1,9 @@
+# Anonymized example for the prompt-baseline helper `prompt_baselines/common.py`.
+#
+# This file is parsed as flat `key=value` / `key: value` entries. Copy it to the
+# repository root as `token.yaml`, or export the equivalent environment variables
+# (OPENAI_API_KEY / OPENAI_BASE_URL / OPENAI_MODEL). All values are placeholders.
+
+api_key_openai=sk-placeholder-anonymized
+base_url_openai=https://api.example-llm.invalid/v1
+model_openai=qwen3-8b

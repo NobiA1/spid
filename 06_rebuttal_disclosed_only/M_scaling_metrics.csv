@@ -1,0 +1,5 @@
+cohorts_M,llm_calls,tokens_million,EW_RMSE,EW_MAPE,RetCorr,final_Gini,window,stocks,N_retail,N_institution,seed,source
+3,300,1.74,33.75,2.71%,0.274,0.3088,June 2025,top-5,50,1,42,reported_values
+10,1000,2.86,34.01,2.50%,0.008,0.3068,June 2025,top-5,50,1,42,reported_values
+30,3000,7.99,33.35,2.40%,0.087,0.2732,June 2025,top-5,50,1,42,reported_values
+50,5000,13.52,20.64,1.44%,0.397,0.2903,June 2025,top-5,50,1,42,reported_values

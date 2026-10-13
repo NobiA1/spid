@@ -1,0 +1,3 @@
+setting,N,window,forum_posts,forum_records,EW_RMSE,EW_MAPE,RetCorr,DirAcc,trades,final_Gini,source
+SUM,500,June 2025,1000,1900,23.70,1.84%,0.356,0.789,2935,0.3112,reported_values
+No-forum cache,500,June 2025,0,0,21.44,1.74%,0.392,0.737,2700,0.3116,reported_values

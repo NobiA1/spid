@@ -1,0 +1,7 @@
+metric,N500,N100000,units,source
+mean_bid_ask_spread,0.1367,0.1215,percent,reported_values
+median_bid_ask_spread,0.0792,0.0289,percent,reported_values
+daily_executed_volume_per_stock,125723,19015408,shares,reported_values
+order_book_sparsity,0.289,0.004,fraction,reported_values
+absolute_depth_imbalance,0.500,0.426,index,reported_values
+return_roughness,0.327,0.167,index,reported_values

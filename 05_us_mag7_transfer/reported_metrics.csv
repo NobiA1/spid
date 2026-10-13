@@ -1,0 +1,9 @@
+market,window,N,M,metric,value,units,source,notes
+US Magnificent 7,June 2025,500,3,NRMSE,0.0833,normalized, reported_values,preliminary transfer result; equal-weight normalized metrics
+US Magnificent 7,June 2025,500,3,NMAPE,0.0693,normalized,reported_values,preliminary transfer result; equal-weight normalized metrics
+US Magnificent 7,June 2025,500,3,RetCorr,0.3787,correlation,reported_values,preliminary transfer result; equal-weight normalized metrics
+US Magnificent 7,June 2025,500,3,Wasserstein_distance,0.00835,normalized,reported_values,preliminary transfer result; equal-weight normalized metrics
+A-share comparator,June 2025 comparator,500,3,NRMSE,0.0296,normalized,reported_values,reported_values
+A-share comparator,June 2025 comparator,500,3,NMAPE,0.0220,normalized,reported_values,reported_values
+A-share comparator,June 2025 comparator,500,3,RetCorr,0.3885,correlation,reported_values,reported_values
+A-share comparator,June 2025 comparator,500,3,Wasserstein_distance,0.00923,normalized,reported_values,reported_values
